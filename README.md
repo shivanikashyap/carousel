@@ -20,6 +20,8 @@ and navigate to the cart page. Here you will find the related products carousel 
 * Use Of A Task Runner Such As Gulp Or Grunt - You Should Use This For Compiling, Linting And Minifying CSS / JS
 * Use Of Vue.js or similar framework to build the data call and slider functionality
 
-###Run the project
-go to the directory relatedProductsComponent
+###How to run the project
+run below command in your local:
+git clone https://github.com/shivanikashyap/carousel.git
+chnage the directory to relatedProductsComponent
 run ng serve --o
