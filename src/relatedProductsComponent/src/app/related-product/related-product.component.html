@@ -1,0 +1,22 @@
+
+<div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2 class="pb-2">Related Products</h2>
+        <ngb-carousel *ngIf="arrCarousel.carouselData">
+          <ng-template ngbSlide *ngFor="let product of arrCarousel.carouselData">
+              <div class="card-item__image">
+                <a href="{{product.url}}">
+                  <img alt="Random slide" width="90" height="85" src="{{product.productImageUrl}}" class="img-responsive">
+                  <h6 class="card-item__title">{{product.name}}</h6>
+                  <h6 style="font-weight: 400;">Stock {{product.itemPositionOneBased}}</h6>
+                  <h6>{{product.price.currency}} {{product.price.formattedValue}}</h6>
+                  <button type="submit" class="btn btn-success" (click)=addProduct(product)>Buy now</button>
+                </a>
+              </div>
+          </ng-template>
+        </ngb-carousel>
+      </div>
+    </div>
+  </div>
+
