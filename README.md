@@ -1,6 +1,4 @@
-#Distrelec Technical Test - Front End Engineer
-
-##Constuct An Improved Version Of A Carousel Component 
+##An Improved Version Of A Carousel Component 
 
 Using the JSON data source provided we would like you to construct a new and improved version of the 'Related Products' carousel component. 
 An example of this component can be found here:
